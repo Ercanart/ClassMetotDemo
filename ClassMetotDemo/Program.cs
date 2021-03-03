@@ -19,7 +19,7 @@ namespace ClassMetotDemo
 
             musteri2.Adi = "Eddie";
             musteri2.SoyAdi = "Van Halen";
-            musteri2.DogumTarihi = 1955.ToString(); ;
+            musteri2.DogumTarihi = 1955.ToString();
             musteri2.DogumYeri = "Amsterdam";
             musteri2.KrediPuani = 1860.ToString();
 
@@ -27,7 +27,7 @@ namespace ClassMetotDemo
 
             musteri3.Adi = "Jason";
             musteri3.SoyAdi = "Becker";
-            musteri3.DogumTarihi = 1969.ToString(); ;
+            musteri3.DogumTarihi = 1969.ToString();
             musteri3.DogumYeri = "Richmond";
             musteri3.KrediPuani = 1900.ToString();
 
