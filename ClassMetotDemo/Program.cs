@@ -60,6 +60,15 @@ namespace ClassMetotDemo
             musteriManager.Sil(musteri1);
             Console.WriteLine("--------------------");
             musteriManager.Sil(musteri2);
+            Console.WriteLine("--------listeleme------------");
+            musteriManager.Listele(musteri1);
+            musteriManager.Listele(musteri2);
+            musteriManager.Listele(musteri3);
+            musteriManager.Listele(musteri4);
+
+
+
+
 
 
 

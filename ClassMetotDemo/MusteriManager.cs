@@ -46,8 +46,29 @@ namespace ClassMetotDemo
             Console.WriteLine("Kredi Puanı : " + "Silindi" + silindi6);
 
         }
+        public void Listele(Musteri musteri)
+        {
+            string[] listeler = new string[] { musteri.Id, musteri.Adi, musteri.SoyAdi, musteri.DogumTarihi};
+            for (int a = 0; a < listeler.Length; a++)
+            Array.Sort(listeler);
+            //foreach (var musterim in listeler)
+            {
+                Console.WriteLine("Id : " + musteri.Id);
+                Console.WriteLine("Adı : " + musteri.Adi);
+                Console.WriteLine("Soy Adı : " + musteri.SoyAdi);
+                Console.WriteLine("Doğum Tarihi : " + musteri.DogumTarihi);
+                Console.WriteLine("Doğum Yeri : " + musteri.DogumYeri);
+                Console.WriteLine("Kredi Puanı : " + musteri.KrediPuani);
+            }
+
+            //Array.Sort(listeler);
+
+            
 
 
+
+        }
+        
 
 
 
