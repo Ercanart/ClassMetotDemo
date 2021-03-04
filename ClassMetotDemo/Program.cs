@@ -7,7 +7,8 @@ namespace ClassMetotDemo
         static void Main(string[] args)
         {
             Musteri musteri1 = new Musteri();
-            
+
+            musteri1.Id = 112233.ToString();
             musteri1.Adi = "Jimi";
             musteri1.SoyAdi = "Hendrix";
             musteri1.DogumTarihi = 1942.ToString();
@@ -17,6 +18,7 @@ namespace ClassMetotDemo
 
             Musteri musteri2 = new Musteri();
 
+            musteri2.Id = 223344.ToString();
             musteri2.Adi = "Eddie";
             musteri2.SoyAdi = "Van Halen";
             musteri2.DogumTarihi = 1955.ToString();
@@ -25,6 +27,7 @@ namespace ClassMetotDemo
 
             Musteri musteri3 = new Musteri();
 
+            musteri3.Id = 334455.ToString();
             musteri3.Adi = "Jason";
             musteri3.SoyAdi = "Becker";
             musteri3.DogumTarihi = 1969.ToString();
@@ -33,6 +36,7 @@ namespace ClassMetotDemo
 
             Musteri musteri4 = new Musteri();
 
+            musteri4.Id = 445566.ToString();
             musteri4.Adi = "Anthony Frank";
             musteri4.SoyAdi = "Iommi";
             musteri4.DogumTarihi = 1948.ToString();
