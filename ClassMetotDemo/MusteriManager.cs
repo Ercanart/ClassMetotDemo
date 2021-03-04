@@ -48,7 +48,8 @@ namespace ClassMetotDemo
         }
         public void Listele(Musteri musteri)
         {
-            string[] listeler = new string[] { musteri.Id, musteri.Adi, musteri.SoyAdi, musteri.DogumTarihi};
+            string[] listeler = new string[] { musteri.Id, musteri.Adi, musteri.SoyAdi, musteri.DogumTarihi, musteri.DogumYeri, musteri.KrediPuani};
+            
             for (int a = 0; a < listeler.Length; a++)
             Array.Sort(listeler);
             //foreach (var musterim in listeler)

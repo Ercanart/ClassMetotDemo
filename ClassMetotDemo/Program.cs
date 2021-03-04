@@ -53,14 +53,15 @@ namespace ClassMetotDemo
             */
 
             MusteriManager musteriManager = new MusteriManager();
+            Console.WriteLine("-------Ekleme-------");
             musteriManager.Ekle(musteri1);
             Console.WriteLine("--------------------");
             musteriManager.Ekle(musteri2);
-            Console.WriteLine("--------------------");
+            Console.WriteLine("--------Sİlme-------");
             musteriManager.Sil(musteri1);
             Console.WriteLine("--------------------");
             musteriManager.Sil(musteri2);
-            Console.WriteLine("--------listeleme------------");
+            Console.WriteLine("-----listeleme------");
             musteriManager.Listele(musteri1);
             musteriManager.Listele(musteri2);
             musteriManager.Listele(musteri3);
