@@ -8,12 +8,12 @@ namespace ClassMetotDemo
     {
         public void Ekle(Musteri musteri)
         {
-            Console.WriteLine("Id : " + "Eklendi" + " " + musteri.Id);
-            Console.WriteLine("Adı : " + "Eklendi" + " " + musteri.Adi);
-            Console.WriteLine("Soy Adı : " + "Eklendi" + " " + musteri.SoyAdi);
-            Console.WriteLine("Doğum Tarihi : " + "Eklendi" + " " + musteri.DogumTarihi);
-            Console.WriteLine("Doğum Yeri : " + "Eklendi" + " " + musteri.DogumYeri);
-            Console.WriteLine("Kredi Puanı : " + "Eklendi" + " " + musteri.KrediPuani);
+            Console.WriteLine("Id : " + "Eklendi" + " / " + musteri.Id);
+            Console.WriteLine("Adı : " + "Eklendi" + " / " + musteri.Adi);
+            Console.WriteLine("Soy Adı : " + "Eklendi" + " / " + musteri.SoyAdi);
+            Console.WriteLine("Doğum Tarihi : " + "Eklendi" + " / " + musteri.DogumTarihi);
+            Console.WriteLine("Doğum Yeri : " + "Eklendi" + " / " + musteri.DogumYeri);
+            Console.WriteLine("Kredi Puanı : " + "Eklendi" + " / " + musteri.KrediPuani);
 
         }
 
