@@ -8,12 +8,12 @@ namespace ClassMetotDemo
     {
         public void Ekle(Musteri musteri)
         {
-            Console.WriteLine("Id : " + musteri.Id);
-            Console.WriteLine("Adı : " + musteri.Adi);
-            Console.WriteLine("Soy Adı : " + musteri.SoyAdi);
-            Console.WriteLine("Doğum Tarihi : " + musteri.DogumTarihi);
-            Console.WriteLine("Doğum Yeri : " + musteri.DogumYeri);
-            Console.WriteLine("Kredi Puanı : " + musteri.KrediPuani);
+            Console.WriteLine("Id : " + "Eklendi" + " " + musteri.Id);
+            Console.WriteLine("Adı : " + "Eklendi" + " " + musteri.Adi);
+            Console.WriteLine("Soy Adı : " + "Eklendi" + " " + musteri.SoyAdi);
+            Console.WriteLine("Doğum Tarihi : " + "Eklendi" + " " + musteri.DogumTarihi);
+            Console.WriteLine("Doğum Yeri : " + "Eklendi" + " " + musteri.DogumYeri);
+            Console.WriteLine("Kredi Puanı : " + "Eklendi" + " " + musteri.KrediPuani);
 
         }
 
@@ -48,18 +48,23 @@ namespace ClassMetotDemo
         }
         public void Listele(Musteri musteri)
         {
-            string[] listeler = new string[] { musteri.Id, musteri.Adi, musteri.SoyAdi, musteri.DogumTarihi, musteri.DogumYeri, musteri.KrediPuani};
+            //string[] listeler = new string[] { musteri.Id, musteri.Adi, musteri.SoyAdi, musteri.DogumTarihi, musteri.DogumYeri, musteri.KrediPuani};
             
-            for (int a = 0; a < listeler.Length; a++)
-            Array.Sort(listeler);
+            //for (int a = 0; a < listeler.Length; a++)
+
+            //Array.Sort(listeler);
             //foreach (var musterim in listeler)
             {
-                Console.WriteLine("Id : " + musteri.Id);
-                Console.WriteLine("Adı : " + musteri.Adi);
-                Console.WriteLine("Soy Adı : " + musteri.SoyAdi);
-                Console.WriteLine("Doğum Tarihi : " + musteri.DogumTarihi);
-                Console.WriteLine("Doğum Yeri : " + musteri.DogumYeri);
-                Console.WriteLine("Kredi Puanı : " + musteri.KrediPuani);
+                //Console.WriteLine("Id : " + listeler[0]);
+                //Console.WriteLine("Adı : " + listeler[1]);
+                //Console.WriteLine("Soy Adı : " + listeler[2]);
+                //Console.WriteLine("Doğum Tarihi : " + listeler[3]);
+                //Console.WriteLine("Doğum Yeri : " + listeler[4]);
+                //Console.WriteLine("Kredi Puanı : " + listeler[5]);
+
+                Console.WriteLine("Id : " + musteri.Id + " / " + "Adı : " + musteri.Adi + " / " + "Soy Adı : " + musteri.SoyAdi + " / " + "Doğum Tarihi : " + musteri.DogumTarihi + " / " + "Doğum Yeri : " + musteri.DogumYeri + " / " + "Kredi Puanı : " + musteri.KrediPuani);
+
+
             }
 
             //Array.Sort(listeler);
